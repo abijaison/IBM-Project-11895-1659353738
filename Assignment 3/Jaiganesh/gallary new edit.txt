@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Gallery</title>
+        <link rel="stylesheet" href="https://childcare-bucket-1.s3.au-syd.cloud-object-storage.appdomain.cloud/styles.css">
+    </head>
+    <body>
+        <h2>GALLERY</h2>
+        <div id="gallery">
+            <img src="https://childcare-bucket-1.s3.au-syd.cloud-object-storage.appdomain.cloud/a.jpg">
+            <img src="https://childcare-bucket-1.s3.au-syd.cloud-object-storage.appdomain.cloud/b.jpg">
+            <img src="https://childcare-bucket-1.s3.au-syd.cloud-object-storage.appdomain.cloud/c.jpg">
+            <img src="https://childcare-bucket-1.s3.au-syd.cloud-object-storage.appdomain.cloud/d.jpg">
+            <img src="https://childcare-bucket-1.s3.au-syd.cloud-object-storage.appdomain.cloud/e.jpg">
+        </div>
+    </body>
+</html>
