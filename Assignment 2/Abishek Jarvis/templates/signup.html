@@ -1,0 +1,43 @@
+<html>
+   <body>
+
+    <a href="/">HOME</a>
+    <a href="/addstudent">Add New Student</a>
+    <a href="/list">List Student</a>
+    <br><hr>
+
+    
+<form action="/signup" method='POST'>
+	  Name<br>
+    <input type = "text" name = "name" /></br>
+    
+      Email<br>
+    <input type="text" name="email"/><br>
+    
+      Phone<br>
+    <input type = "number" name = "phone" /><br>
+    
+      Password<br>
+    <input type = "password" name = "password" /><br><br>
+    <input type = "submit" value = "submit" /><br>
+</form>
+<table border = 1>
+         <thead>
+            <td>Name</td>
+            <td>email></td>
+            <td>phoneno</td>
+            <td>password</td>
+         </thead>
+         
+         {% for row in users %}
+            <tr>
+               <td>{{row["name"]}}</td>
+               <td>{{row["email"]}}</td>
+               <td> {{ row["phoneno"]}}</td>
+               <td>{{row['password']}}</td>	
+            </tr>
+         {% endfor %}
+      </table>
+       </body>
+
+</html>
